@@ -1,0 +1,59 @@
+
+* {
+    font-family: Lato;
+    color: white;
+  }
+  
+  h1 {
+    border-radius: 5px;
+    background-color: forestgreen;
+    text-align: center;
+  }
+
+
+  img#logo {
+    display: flex;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-bottom: auto;
+  }
+
+  img#aro{
+    position: fixed;
+    top: 415px;
+    right: 0px;
+    opacity: 30%;
+  }
+
+  img#mole {
+    width: 18%;
+    position: fixed;
+    top: 30px;
+    right: 3px;
+    opacity: 30%;
+  }
+
+  .exemplo{
+    position: absolute;
+    top: 25px;
+  }
+
+  /* Algumas propriedades
+      background-color - cor de fundo
+      color - cor do texto
+      text-align - alinhamento
+      font-family - tipo de fonte
+      font-size - Tamanho da fonte
+      font-weight - largura na fonte
+      font-style - Estilos na fonte
+      width - Largura
+      height - Altura
+      margin - Espaçamentos externos
+      padding - Espaçamentos internos
+      word-spacing
+      letter-spacing
+      border
+      text-decoration
+      text-indent
+      */
