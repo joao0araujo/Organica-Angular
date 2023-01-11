@@ -1,0 +1,28 @@
+p{
+    position: absolute;
+    font-size: medium;
+    top: 45%;
+    left: 14%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 40px;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.21s;
+}
+
+a{
+    background-color: #99EDC3;
+    color: black;
+    transition: 0.21s;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 2px;
+
+}

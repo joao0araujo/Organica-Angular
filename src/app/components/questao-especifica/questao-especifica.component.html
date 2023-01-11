@@ -1,9 +1,9 @@
-<p *ngFor="let questo of questos" [routerLink]="['/especifica']"> 
+<p [routerLink]="['/especifica']"> 
     
     <a>
-    {{questo.titulo | uppercase}}
+    {{titulo | uppercase}}
     <br> <br>
-    {{questo.questao}}
+    {{questao}}
     <br> <br>
     <!-- <img>  para possivel imagem da questão, também retirada do banco -->
 

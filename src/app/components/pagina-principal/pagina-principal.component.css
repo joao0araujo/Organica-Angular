@@ -1,0 +1,32 @@
+* {
+    font-family: Lato;
+    color: white;
+  }
+
+  img#logo {
+    display: flex;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-bottom: auto;
+  }
+
+  img#aro{
+    position: fixed;
+    top: 415px;
+    right: 0px;
+    opacity: 30%;
+  }
+
+  img#mole {
+    width: 18%;
+    position: fixed;
+    top: 30px;
+    right: 3px;
+    opacity: 30%;
+  }
+
+  .exemplo{
+    position: absolute;
+    top: 25px;
+  }

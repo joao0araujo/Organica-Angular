@@ -3,11 +3,12 @@
     
     <div class="container">  
 
-      <img id="atomo" src="/assets/Atomo.png" width="28px" height="28px">
-      <input type="search" id="busca" name="q" placeholder="Pesquise aqui">
-
+      <input type="search" [(ngModel)] = "pesquisa" id="busca" name="q" placeholder="Pesquise aqui">
+      <button id="but" routerLink='/especifica'>-></button>
+      
     </div>
-  
-  </form>
+
+  </form>    
+
 
   

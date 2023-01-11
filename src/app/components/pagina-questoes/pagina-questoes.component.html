@@ -1,0 +1,15 @@
+<div> <p *ngFor="let quest of quests" [routerLink]="['/especifica']"> 
+    
+    <a>
+    {{quest.titulo | uppercase}}
+    <br> <br>
+    {{quest.questao}}
+    <br> <br>
+     <!-- <img>  para possivel imagem da questão, retirada do array "imagens" -->
+
+</a>
+
+</p>
+
+
+</div>

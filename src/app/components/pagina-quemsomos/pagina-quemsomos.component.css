@@ -1,0 +1,11 @@
+p{
+    position: absolute;
+    font-size: medium;
+    top: 45%;
+    left: 18%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 40px;
+}

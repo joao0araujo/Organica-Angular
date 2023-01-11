@@ -1,3 +1,13 @@
+div{
+    position: absolute;
+    display: flex;
+    color: white;
+    top: 30%;
+    left: 24%;
+    right: 0%;
+}
+
+
 p{
     border: 1px solid white;
     border-radius: 5px;
@@ -5,24 +15,15 @@ p{
     height: 260px;
     transition: 0.21s;
     text-align: center;
-    
+    margin: 5px;
 }
 
 a, img {
-    transition: 0.21s;
-}
-
-p:hover {
-    color: black;
-    border: 1px solid black;
-    background-color: #99EDC3;
-    width: 800px;
-    transition: 0.21s;
-    border-radius: 5px;
-    text-align: center;
+    transition: 0.21s; 
 }
 
 p:hover a, p:hover, p:hover a img {
+    border-color: black;
     color: black;
     background-color: #99EDC3;
     transition: 0.21s;
